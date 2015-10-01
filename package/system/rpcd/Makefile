@@ -12,11 +12,11 @@ PKG_VERSION:=2015-01-10
 PKG_RELEASE=$(PKG_SOURCE_VERSION)
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=git://nbd.name/luci2/rpcd.git
+PKG_SOURCE_URL:=https://github.com/mkschreder/juci-rpcd.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)
-PKG_SOURCE_VERSION:=f00890cd6eb47ad9bb5da0fb6c50aedc8406e7c5
+PKG_SOURCE_VERSION:=830fbe9ac656c825cc86a990ce48c121da62ae6a
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
-PKG_MAINTAINER:=Jo-Philipp Wich <jow@openwrt.org>
+PKG_MAINTAINER:=Martin K. Schröder <mkschreder.uk@gmail.com>
 
 PKG_LICENSE:=ISC
 PKG_LICENSE_FILES:=
