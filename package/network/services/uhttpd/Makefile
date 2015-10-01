@@ -12,11 +12,11 @@ PKG_VERSION:=2015-10-20
 PKG_RELEASE=$(PKG_SOURCE_VERSION)
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=git://nbd.name/uhttpd2.git
+PKG_SOURCE_URL:=https://github.com/mkschreder/juci-uhttpd.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_VERSION:=618315bc0729c3064e06af2900a86211354f81c9
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
-PKG_MAINTAINER:=Felix Fietkau <nbd@openwrt.org>
+PKG_MAINTAINER:=Martin K. Schröder <mkschreder.uk@gmail.com>
 PKG_LICENSE:=ISC
 
 PKG_BUILD_DEPENDS = ustream-ssl
