@@ -92,6 +92,6 @@ define BuildPlugin
 endef
 
 $(eval $(call BuildPackage,rpcd))
-$(eval $(call BuildPlugin,file,,Provides ubus calls for file and directory operations.))
-$(eval $(call BuildPlugin,rpcsys,,Provides ubus calls for sysupgrade and password changing.))
-$(eval $(call BuildPlugin,iwinfo,+libiwinfo,Provides ubus calls for accessing iwinfo data.))
+#$(eval $(call BuildPlugin,file,,Provides ubus calls for file and directory operations.))
+#$(eval $(call BuildPlugin,rpcsys,,Provides ubus calls for sysupgrade and password changing.))
+#$(eval $(call BuildPlugin,iwinfo,+libiwinfo,Provides ubus calls for accessing iwinfo data.))
