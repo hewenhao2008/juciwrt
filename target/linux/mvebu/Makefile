@@ -9,10 +9,11 @@ include $(TOPDIR)/rules.mk
 ARCH:=arm
 BOARD:=mvebu
 BOARDNAME:=Marvell Armada 37x/38x/XP
+SUBTARGETS:=Caiman
 FEATURES:=usb pci pcie gpio nand squashfs
 CPU_TYPE:=cortex-a9
 CPU_SUBTYPE:=vfpv3
-MAINTAINER:=Imre Kaloz <kaloz@openwrt.org>
+xMAINTAINER:=Imre Kaloz <kaloz@openwrt.org>
 
 KERNEL_PATCHVER:=3.18
 
