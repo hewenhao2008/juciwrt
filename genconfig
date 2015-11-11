@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "CONFIG_TARGET_mvebu=y" > .config
+echo "CONFIG_TARGET_mvebu_Caiman=y" >> .config
+echo "CONFIG_TARGET_mvebu_Caiman_Inteno=y" >> .config
+make genconfig
+#make oldconfig
+

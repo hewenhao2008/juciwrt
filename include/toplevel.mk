@@ -109,6 +109,9 @@ confdefault-m=allmod
 confdefault-n=allno
 confdefault:=$(confdefault-$(CONFDEFAULT))
 
+genconfig: scripts/config/conf prepare-tmpinfo FORCE
+	$< --olddefconfig Config.in
+
 oldconfig: scripts/config/conf prepare-tmpinfo FORCE
 	$< --$(if $(confdefault),$(confdefault),old)config Config.in
 
